@@ -1,5 +1,5 @@
 ## SQL Ödev 8
-
+1. test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
 ```sql
 CREATE TABLE employee (
 	id SERIAL PRIMARY KEY,
@@ -7,7 +7,9 @@ CREATE TABLE employee (
 	birthday DATE,
 	email VARCHAR(100)
 );
-
+```
+2. Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+```sql
 insert into employee (name, birthday, email) values ('Bren Sparshatt', '1997-12-20', 'bsparshatt0@homestead.com');
 insert into employee (name, birthday, email) values ('Aviva Swoffer', '1978-01-27', 'aswoffer1@feedburner.com');
 insert into employee (name, birthday, email) values ('Karrah Bodimeade', '1983-08-17', 'kbodimeade2@mac.com');
@@ -58,12 +60,16 @@ insert into employee (name, birthday, email) values ('Eula English', '1981-05-17
 insert into employee (name, birthday, email) values ('Tammi Bansal', '2005-11-27', 'tbansal1b@narod.ru');
 insert into employee (name, birthday, email) values ('Thorvald O''Donegan', '1954-09-10', 'todonegan1c@biblegateway.com');
 insert into employee (name, birthday, email) values ('Raff Ashplant', '1985-10-23', 'rashplant1d@goo.ne.jp');
-
+```
+3. Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+```sql
 UPDATE employee 
 SET email = 'test'
 WHERE id IN(1,2,3,4,5)
 RETURNING *;
-
+```
+4. Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+```sql
 DELETE FROM employee
 WHERE email = 'test';
 ```
