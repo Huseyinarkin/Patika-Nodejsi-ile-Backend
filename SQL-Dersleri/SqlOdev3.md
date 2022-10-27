@@ -1,4 +1,4 @@
-# SQL Ödev 3
+## SQL Ödev 3
 
 ```sql
 SELECT * FROM country

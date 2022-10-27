@@ -1,4 +1,5 @@
-# SQL Ödev 1
+# SQL Temelleri 1
+## SQL Ödev 1
 
 ```sql
 SELECT title, description FROM film;
@@ -17,7 +18,7 @@ WHERE NOT ( length > 50 ) AND NOT ( rental_rate = 2.99 OR rental_rate = 4.99 );
 ```
 ****
 
-# SQL Ödev 2
+## SQL Ödev 2
 
 ```sql
 SELECT * FROM film
@@ -31,7 +32,7 @@ WHERE rental_rate IN ( 0.99, 2.99, 4.99 ) AND replacement_cost IN ( 12.99, 15.99
 ```
 ****
 
-# SQL Ödev 3
+## SQL Ödev 3
 
 ```sql
 SELECT * FROM country
@@ -48,7 +49,7 @@ WHERE title LIKE 'C%' AND length > 90 AND rental_rate = 2.99;
 ```
 ****
 
-# SQL Ödev 4
+## SQL Ödev 4
 
 ```sql
 SELECT DISTINCT replacement_cost FROM film;
