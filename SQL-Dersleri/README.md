@@ -1,4 +1,5 @@
 # SQL Temelleri 1
+****
 ## SQL Ödev 1
 
 ```sql
@@ -67,6 +68,7 @@ WHERE city ILIKE '%r';
 ```
 ****
 # SQL Temelleri 2
+****
 
 ## SQL Ödev 5
 
@@ -87,6 +89,7 @@ WHERE store_id = 1
 ORDER BY last_name DESC
 LIMIT 4;
 ```
+****
 ## SQL Ödev 6
 
 ```sql
@@ -100,4 +103,26 @@ WHERE rental_rate = 0.99;
 
 SELECT COUNT(DISTINCT replacement_cost) FROM film
 WHERE length > 150;
+```
+****
+## SQL Ödev 7
+
+```sql
+SELECT rating FROM film
+GROUP BY rating;
+
+SELECT replacement_cost, COUNT(replacement_cost)
+FROM film
+GROUP BY replacement_cost
+HAVING COUNT(replacement_cost) >50;
+
+SELECT store_id, COUNT(*)
+FROM customer
+GROUP BY store_id;
+
+SELECT country_id, COUNT(*)
+FROM city
+GROUP BY country_id
+ORDER BY COUNT(*) DESC
+LIMIT 1;
 ```
