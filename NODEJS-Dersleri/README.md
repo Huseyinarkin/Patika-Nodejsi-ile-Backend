@@ -29,3 +29,13 @@ Daire Modüler Dosyası
 * require ve object destructing kullanarak index.js dosyasında yarıçap (r) 5 olacak şekilde ekran çıktısını alınız.
 
 **Cevap:** NodeJsOdev3
+****
+## NodeJs Ödev 4
+Node.js FS Modülü kullanarak CRUD işlemleri yapacağız.
+
+* employees.json dosyası oluşturalım ve içerisine {"name": "Employee 1 Name", "salary": 2000} verisini ekleyelim. (CREATE)
+* Bu veriyi okuyalım. (READ)
+* Bu veriyi güncelleyelim.
+* Dosyayı silelim. 
+
+**Cevap:** NodeJsOdev4
