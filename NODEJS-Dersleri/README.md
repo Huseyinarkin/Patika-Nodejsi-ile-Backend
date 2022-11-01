@@ -11,3 +11,10 @@ let areaCircle = (radius) => {
 };
 areaCircle(inputArray[0] * 1);
 ```
+****
+# Asenkron Javascript
+****
+## NodeJs Ödev 2
+Blog oluşturmaya hazır mısınız? Konsol ekranında postlarımızı sıralayalım, sonrasında yeni bir post oluşturalım ve yeni post ile birlikte postlarımızı tekrar sıralayalım.
+
+**Cevap:** NodeJsOdev2.js
