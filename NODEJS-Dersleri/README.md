@@ -51,3 +51,14 @@ Kendi bilgisayarımızda aşağıdaki özellikleri kullanarak web sunucumuzu yaz
 **Cevap:** NodeJsOdev5
 
 ![sonuc](https://user-images.githubusercontent.com/62842902/203212089-0e64513a-9740-4645-b154-0b61b0befccb.png)
+****
+## NodeJs Ödev 6
+#### Koa.js ile web sunucumuzu yazalım.
+Öncelikle şunu belirteyim. Koa.js hakkında konuşmadığımızı biliyorum ve bu ödev ilk aşamada bizi zorlayacak. Buradaki amacım yeni bir teknolojiye başlama cesareti oluşturmak ve hata yapma özgürlüğümüz olduğunu göstermek.
+
+* koa paketini indirelim.
+* index, hakkimda ve iletisim sayfaları oluşturalım.
+* Sayfalara içerik olarak xxx sayfasına hoşgeldiniz şeklinde h1 başlıkları yazdıralım.
+* port numarası olarak 3000'i kullanalım.
+
+**Cevap:** NodeJsOdev6
