@@ -39,3 +39,15 @@ Node.js FS Modülü kullanarak CRUD işlemleri yapacağız.
 * Dosyayı silelim. 
 
 **Cevap:** NodeJsOdev4
+****
+## NodeJs Ödev 5
+Kendi bilgisayarımızda aşağıdaki özellikleri kullanarak web sunucumuzu yazalım.
+
+* createServer metodunu kullanacağız.
+* index, hakkimda ve iletisim sayfaları oluşturalım.
+* Sayfalara içerik olarak xxx sayfasına hoşgeldiniz şeklinde h2 başlıkları yazdıralım.
+* port numarası olarak 5000'i kullanalım.
+
+**Cevap:** NodeJsOdev5
+
+![sonuc](https://user-images.githubusercontent.com/62842902/203212089-0e64513a-9740-4645-b154-0b61b0befccb.png)
